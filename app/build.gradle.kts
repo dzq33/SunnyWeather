@@ -38,6 +38,14 @@ android {
 }
 
 dependencies {
+    implementation(libs.retrofit2.retrofit)
+    implementation(libs.androidx.recyclerview)
+    implementation(libs.androidx.lifecycle.extensions)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.swiperefreshlayout)
+    implementation(libs.converter.gson)
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
