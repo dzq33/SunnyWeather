@@ -36,13 +36,11 @@ android {
         jvmTarget = "11"
     }
 }
-
 dependencies {
-    implementation(libs.retrofit2.retrofit)
     implementation(libs.androidx.recyclerview)
-    implementation(libs.androidx.lifecycle.extensions)
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.swiperefreshlayout)
+    implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
